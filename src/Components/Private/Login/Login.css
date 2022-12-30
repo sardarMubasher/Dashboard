@@ -1,0 +1,179 @@
+
+
+.login-wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: start;
+background-color: #C4C5CC;
+   align-items: center;
+   padding: 0 5rem;
+   position: relative;
+   background-image: linear-gradient(178deg, #F4F5F800, #F4F5F8), url('https://cdn.shopify.com/s/files/1/0334/8565/2108/products/Joan_Asp_Serenity_a2f0647c-8883-4897-9623-fa68baffff4d_2048x.jpg?v=1582005160') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.login-form{
+    width: 490px;
+    height: 748px;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    z-index: 10;
+    gap: 1rem;
+    overflow: hidden;
+    border-radius: 20px;
+    color: #173039;
+
+    
+}
+
+.login-logo{
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   opacity: .6;
+    justify-content: start;
+   
+}
+.login-logo>img{
+    width: 73px;
+    height:67px;
+   
+    
+
+}
+.login-logo>span{
+    font-size: 2rem;
+}
+.login-logo>p{
+font-size: 1.5rem;
+font-weight: bold;
+color: #173039;
+
+}
+
+.login-form>:nth-child(2)
+{
+    color: #DDB669;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.login-text-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    
+}
+label{
+    opacity: 0.6;
+}
+.login-input{
+    width: 100%;
+    height: 40px;
+    padding-left: 6px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F5F9F9;
+    outline: none;
+}
+
+.login-remember-field{
+align-self: center;
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.login-remember-field>div{
+display: flex;
+gap: 6px;
+align-items: center;
+
+}
+.login-remember-field>div>:nth-child(2)
+{
+    accent-color:#DDB669 ;
+    height: 100%;
+    margin-top: 5px;
+}
+.login-pass-handler{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.login-pass-handler>span{
+    position: absolute;
+    right: 6px;
+    color: #173039;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.login-form>button{
+    width: 155px;
+    height: 40px;
+    color:white;
+    background: #C4C5CC 0% 0% no-repeat padding-box;
+border-radius: 10px;
+border: none;
+align-self: center;
+cursor: pointer;
+
+}
+
+.login-noAccount{
+    display: flex;
+    align-self: center;
+    gap: 2px;
+    opacity: 0.8;
+    color: #DDB669;
+}
+
+a{
+    text-decoration: none;
+    color: #173039;
+}
+
+.login-wrapper>:nth-child(2)
+{
+position: absolute;
+width: 705px;
+height: 550px;
+right: 10%;
+top: 15%;
+opacity: .6;
+}
+
+
+@media (max-height:800px) {
+    .login-form{
+      height: 680px;
+    }
+}
+
+
+@media (max-width:510px) {
+   
+    .login-form{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .login-wrapper{
+        padding: 0;
+    }
+}
